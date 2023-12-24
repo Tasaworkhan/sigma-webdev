@@ -1,0 +1,39 @@
+:root{
+    --color: brown;
+    --seccolor: rgb(184, 110, 110);
+
+
+}
+
+.nav{
+    background-color: red;
+    
+}
+
+p{
+    background-color: rgb(202, 132, 132);
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding:4px;
+
+
+}
+li{
+    padding: 45px;
+    border: 2px solid black;
+
+}
+li:first-child{
+    background-color: aqua;
+}
+li:nth-child(2){
+    background-color: chartreuse;
+}
+li:nth-child(3){
+    background-color: hotpink;
+}
+    
+    
+

@@ -1,0 +1,66 @@
+.nav{
+    background-color: pink;
+    height: 133px ;
+ 
+
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.container{
+    background-color: green;
+    
+    
+    margin: 12px 23px;
+    padding: 40px 10px;
+    text-align: center;
+}
+.box1{
+    background-color: darkorange;
+    height: 70vh;
+    width: 45%;
+    display: inline-block;
+
+}
+.box2{
+    background-color: blueviolet;
+    height: 70vh;
+    width: 45%;
+display: inline-block;
+}
+footer{
+    height: 100px;
+    background-color: burlywood;
+}
+
+main{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.textbox{
+    border:2px solid white;
+    text-align: center;
+    font-size: 2em;
+    margin: 55px 34vw;
+    border-radius: 13px;
+    
+}
+.orange{
+    background-color: orangered;
+    height: 23px;
+    width: 23px;
+    position: fixed;
+    bottom: 23px;
+    right: 12px;
+    border-radius: 60px;
+    
+
+    
+}
+
+
+
+
+    

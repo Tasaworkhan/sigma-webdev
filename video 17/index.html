@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div{
+            color: chartreuse;
+            background-color: chocolate;
+        }
+        /* class selector */
+        .black{
+            background-color: rgb(173, 187, 187);
+        }
+        /* id selector */
+#Lass{
+    color: black;
+    background-color: burlywood;
+}
+/* child selector */
+div>p{
+    background-color: aquamarine;
+}
+/* descendant selector */
+div p{
+    background-color: darkgreen;
+}
+/* universal selector */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* pseudo selector */
+a:visited{
+    color: black;
+}
+a:link{
+    color: crimson;
+}
+
+a:active{
+    color: chocolate;
+}
+a:hover{
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa fugiat facere veritatis aspernatur repellat.
+        </p>
+    </div>
+
+    <div class="black">
+        iam div
+    </div>
+
+    <div id="Lass">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam tempora tenetur odit odio voluptate aliquam quod expedita architecto alias inventore. Eveniet quibusdam dolor odit nihil soluta reprehenderit labore deleniti, similique quaerat officiis quidem quia sit quam, at placeat aliquid veritatis, possimus quae maiores expedita totam.
+        </p>
+    </div>
+    <div>
+        <h1>
+            Tasawor
+        </h1>
+        <main>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, inventore?
+            </p>
+        </main>
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://youtube.com">Go to youtube</a>
+</body>
+</html>

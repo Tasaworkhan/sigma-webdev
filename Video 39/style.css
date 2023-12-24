@@ -1,0 +1,63 @@
+.right {
+
+    border: 2px solid black;
+    
+    display: grid;
+    
+    gap: 20px 10px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: "nav nav nav"
+                        "main article news"
+                        "footer footer footer";
+}
+
+
+
+
+
+
+
+     .item{
+        border: 2px solid green;
+        height: 150px;
+         width: 50px;
+         
+
+     }                   
+
+     .item1{
+        grid-area: nav;
+        height: 50px;
+ width: 50px;
+align-self: flex-end;
+
+     }
+
+     .item2{
+        grid-area: main;
+        height: 50px;
+ width: 50px;
+
+     }
+     .item3{
+        grid-area: article;
+        height: 50px;
+ width: 50px;
+
+     }
+     .item4{
+        grid-area: news;
+        height: 50px;
+ width: 50px;
+
+     }
+     .item5{
+        grid-area: footer;
+        height: 50px;
+        width: 50px;
+
+     }
+
+     
+ 

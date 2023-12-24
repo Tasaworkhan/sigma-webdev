@@ -1,0 +1,49 @@
+.container{
+    width: 50vh;
+    height: 70vh;
+    border: 2px solid green;
+    background-color: azure;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+
+
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    
+    animation: Tk 5s   ease-in-out 1s infinite,
+               ll 7s  ease-in-out  1s infinite;
+              
+                 
+              
+
+}
+
+
+@keyframes Tk{
+    from {
+
+    }
+    to{
+        transform: translateX(110px);
+    }
+}
+
+@keyframes ll{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: brown;
+
+    
+    }
+}
+

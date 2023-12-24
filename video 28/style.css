@@ -1,0 +1,48 @@
+.box {
+    border: 2px solid black;
+    height: 211px;
+    width: 80vw;
+    padding: 2px;
+    margin: 10px;
+
+}
+
+.box1 {
+    background-color: blueviolet;
+    position: absolute;
+    top: 20px;
+    
+    
+
+
+
+   
+
+
+
+
+
+}
+
+
+
+.box3{
+    background-color: cornsilk;
+}
+
+.box3 {
+    background-color: burlywood;
+
+
+}
+
+.box4 {
+    background-color: cyan;
+}
+
+.parent {
+    border: 5px solid brown;
+    padding: 25px;
+    margin: 20px;
+
+}

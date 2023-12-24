@@ -1,0 +1,33 @@
+
+:root{
+    --color: green;
+    --seccolor: rgb(118, 173, 118);
+    
+}
+
+
+
+
+.nav{
+    
+    /* background-color: aqua; */
+    display: flex;
+    list-style: none;
+    background-color: var(--color);
+    
+
+
+}
+li{
+    padding:34px;
+    border: 2px solid black;
+
+}
+
+
+
+
+p{
+   /* background-color: aquamarine;  */
+   background-color: var(--seccolor);
+}
